@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD2ddylP3p-wF91By4Qe4RvTXAFEI8fcEc",
-  authDomain: "to-do-ffaf0.firebaseapp.com",
-  projectId: "to-do-ffaf0",
-  storageBucket: "to-do-ffaf0.appspot.com",
-  messagingSenderId: "563150972142",
-  appId: "1:563150972142:web:ca7c613bf81084dfadbfff",
-  measurementId: "G-E2TRLCKXZ1"
+  apiKey: "AIzaSyDktwNE8GeBl3_TFJ1yTnVAJIZBGZY1V_8",
+  authDomain: "owais-pass-generator.firebaseapp.com",
+  projectId: "owais-pass-generator",
+  storageBucket: "owais-pass-generator.appspot.com",
+  messagingSenderId: "399131274507",
+  appId: "1:399131274507:web:7a61a7032b4b2fc353860e",
+  measurementId: "G-BB1NNEBQDE"
 };
 
 export const app = initializeApp(firebaseConfig);

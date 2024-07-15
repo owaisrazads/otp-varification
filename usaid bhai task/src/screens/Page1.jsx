@@ -30,12 +30,13 @@ console.log(inputUpi);
 
   return (
     <>
-     <div className='bg-[#d1d1d1] h-screen'>
+     <div className='bg-blue-200 h-screen'>
       
    <div>
-    <form onSubmit={handleUpiForm} className='flex justify-center items-center gap-2 h-screen'>
-      <input type="text" placeholder='Enter Your UPID'  className='p-2 rounded-md w-96' onChange={(e)=>setInputUpi(e.target.value)} value={inputUpi}/>
-      <button type='submit' className='bg-blue-600 p-2 rounded-md text-white'>Submit</button>
+    <form onSubmit={handleUpiForm} className='flex flex-col justify-center items-center gap-2 h-screen'>
+      <p className='font-semibold'>Enter Your UPI'ID</p>
+      <input type="text" placeholder='Enter Your UPID'  className='p-2 rounded-md w-96 max-[460px]:w-64' onChange={(e)=>setInputUpi(e.target.value)} value={inputUpi}/>
+      <button type='submit' className='bg-blue-600 mt-1 p-2 rounded-md max-[460px]:w-64 text-white'>Submit</button>
     </form>
    </div>
       </div> 
